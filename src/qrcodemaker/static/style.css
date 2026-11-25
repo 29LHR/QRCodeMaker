@@ -1,0 +1,41 @@
+:root {
+  --primary: #6b0909;
+  --border: #e6d5d5;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: var(--primary);
+  border-bottom: solid var(--border) 0.2vh;
+  font-size: 2vw;
+}
+
+.create {
+  justify-self: center;
+  margin: 2vw;
+  padding: 1vw;
+
+  border: var(--border) solid 0.5vw;
+  border-radius: 1vw;
+
+  justify-content: center;
+
+  input,
+  label {
+    display: block;
+    text-align: center;
+    margin: 0.1vw;
+    font-size: 2vw;
+  }
+
+  #id {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
